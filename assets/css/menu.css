@@ -1,0 +1,36 @@
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    border: 0.1rem solid #EEEE;
+    z-index: 1;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li a {
+    display: block;
+    padding: 2rem;
+    font-size: 1.8rem;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+    background-color: #EEEE;
+    transition: all 300ms ease-in-out;
+}
+.menu h1 {
+    font-size: 2.3rem;
+    color: var(--primary-color);
+}.menu h1 a {
+    color: inherit;
+}
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
